@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: sans-serif;
+}
+
+img{
+	width: 100%;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header-img{
+	margin: 0.5rem 0 0.5rem 2rem;
+}
+
+.header-img img{
+	width: 18rem;
+	height: 5rem;
+}
+
+.links{
+	margin-right: 2rem;
+}
+
+.links a{
+	text-decoration: none;
+	margin-right: 1rem;
+	font-size: 1.5rem;
+	color: #8dbd3a;
+} 
+
+.hero-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-img .hero-text{
+	position: absolute;
+	color: white;
+	text-align: center;
+}
+
+.hero-img .hero-text p{
+	font-size: 1.5rem;
+}
+
+.name-teacher{
+	text-align: right;
+}
